@@ -68,6 +68,7 @@ class CrimsonRuneWeapon extends Analyzer {
   }
 
   statistic() {
+    console.log('statistic', this);
     return (
       <Statistic
         category={STATISTIC_CATEGORY.ITEMS}
